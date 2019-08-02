@@ -1,0 +1,21 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Compilers/MinGW/bin/mingw32-make.exe" "cmTC_64673/fast"
+C:/Compilers/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_64673.dir\build.make CMakeFiles/cmTC_64673.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64673.dir/CMakeCCompilerABI.c.obj
+C:\Compilers\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_64673.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files (x86)\CLion\bin\cmake\win\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_64673.exe
+"C:\Program Files (x86)\CLion\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_64673.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CLion\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_64673.dir/objects.a
+C:\Compilers\MinGW\bin\ar.exe cr CMakeFiles\cmTC_64673.dir/objects.a @CMakeFiles\cmTC_64673.dir\objects1.rsp
+C:\Compilers\MinGW\bin\ar.exe: unable to rename 'CMakeFiles\cmTC_64673.dir/objects.a'; reason: File exists
+CMakeFiles\cmTC_64673.dir\build.make:86: recipe for target 'cmTC_64673.exe' failed
+mingw32-make.exe[1]: *** [cmTC_64673.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_64673/fast' failed
+mingw32-make.exe: *** [cmTC_64673/fast] Error 2
+
+
+

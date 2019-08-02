@@ -1,0 +1,3 @@
+D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/VendingMachine.dir
+D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/rebuild_cache.dir

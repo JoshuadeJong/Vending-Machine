@@ -1,0 +1,96 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Compilers/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Compilers/MinGW/bin/mingw32-make.exe" "cmTC_49e7e/fast"
+C:/Compilers/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_49e7e.dir\build.make CMakeFiles/cmTC_49e7e.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49e7e.dir/testCCompiler.c.obj
+C:\Compilers\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_49e7e.dir\testCCompiler.c.obj   -c "D:\Dropbox\Code Projects\CLionProjects\VendingMachine\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_49e7e.exe
+"C:\Program Files (x86)\CLion\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_49e7e.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CLion\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_49e7e.dir/objects.a
+C:\Compilers\MinGW\bin\ar.exe cr CMakeFiles\cmTC_49e7e.dir/objects.a @CMakeFiles\cmTC_49e7e.dir\objects1.rsp
+C:\Compilers\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_49e7e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_49e7e.exe -Wl,--out-implib,libcmTC_49e7e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_49e7e.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Compilers/MinGW/bin/mingw32-make.exe" "cmTC_ac6ef/fast"
+C:/Compilers/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ac6ef.dir\build.make CMakeFiles/cmTC_ac6ef.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac6ef.dir/feature_tests.c.obj
+C:\Compilers\MinGW\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_ac6ef.dir\feature_tests.c.obj   -c "D:\Dropbox\Code Projects\CLionProjects\VendingMachine\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_ac6ef.exe
+"C:\Program Files (x86)\CLion\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ac6ef.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CLion\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ac6ef.dir/objects.a
+C:\Compilers\MinGW\bin\ar.exe cr CMakeFiles\cmTC_ac6ef.dir/objects.a @CMakeFiles\cmTC_ac6ef.dir\objects1.rsp
+C:\Compilers\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_ac6ef.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ac6ef.exe -Wl,--out-implib,libcmTC_ac6ef.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ac6ef.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Compilers/MinGW/bin/mingw32-make.exe" "cmTC_f236a/fast"
+C:/Compilers/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f236a.dir\build.make CMakeFiles/cmTC_f236a.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f236a.dir/feature_tests.c.obj
+C:\Compilers\MinGW\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_f236a.dir\feature_tests.c.obj   -c "D:\Dropbox\Code Projects\CLionProjects\VendingMachine\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_f236a.exe
+"C:\Program Files (x86)\CLion\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f236a.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CLion\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f236a.dir/objects.a
+C:\Compilers\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f236a.dir/objects.a @CMakeFiles\cmTC_f236a.dir\objects1.rsp
+C:\Compilers\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_f236a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f236a.exe -Wl,--out-implib,libcmTC_f236a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f236a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Compilers/MinGW/bin/mingw32-make.exe" "cmTC_d7648/fast"
+C:/Compilers/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d7648.dir\build.make CMakeFiles/cmTC_d7648.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7648.dir/feature_tests.c.obj
+C:\Compilers\MinGW\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_d7648.dir\feature_tests.c.obj   -c "D:\Dropbox\Code Projects\CLionProjects\VendingMachine\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_d7648.exe
+"C:\Program Files (x86)\CLion\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d7648.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CLion\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d7648.dir/objects.a
+C:\Compilers\MinGW\bin\ar.exe cr CMakeFiles\cmTC_d7648.dir/objects.a @CMakeFiles\cmTC_d7648.dir\objects1.rsp
+C:\Compilers\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_d7648.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d7648.exe -Wl,--out-implib,libcmTC_d7648.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d7648.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Dropbox/Code Projects/CLionProjects/VendingMachine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
